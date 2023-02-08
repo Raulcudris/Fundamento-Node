@@ -1,7 +1,7 @@
 function asincrona(callback) {
     setTimeout(function() {
         try {
-            let a = 3 + z;
+            let a = 3 + c;
             callback(null, a);
         } catch (e) {
             callback(e);
